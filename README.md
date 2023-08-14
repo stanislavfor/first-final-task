@@ -23,3 +23,8 @@
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → []
 ``````
+
+### Ссылкаи на решение Контрольной работы
+
+[Ссылка](https://github.com/stanislavfor/first-final-task/tree/main/task) на решение задачи в папке task с Блок-схемой (алгоритмом программы) в файле README.md и кодом программы в файле Program.cs: 
+<https://github.com/stanislavfor/first-final-task/tree/main/task>
