@@ -20,3 +20,7 @@
 ## Решение
 
 #### Программная часть решения задачи с кодом на языке программирования C# находится в файле [Program.cs](https://github.com/stanislavfor/first-final-task/blob/main/task/Program.cs/)
+
+#### Блок-схема алгоритма
+
+![Блок-схема](https://i.ibb.co/BzsDkT2/task-first.png)
