@@ -2,12 +2,11 @@
 // Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма. 
 // При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
-
 class Program
 {
   static void Main(string?[] args)
   {   
-
+    
     Console.Write("Укажите длину одномерного массива (количество элементов): ");
     int eCount = Convert.ToInt32(Console.ReadLine());
 
@@ -19,21 +18,24 @@ class Program
       string e = myArray[i];
       myArray[i] = Console.ReadLine()!;        
     }
-    
+
+    void Quote()
+    {
+      Console.Write("'");
+    }
+
     Console.WriteLine("Вывод массива: ");
     var strings = myArray.ToArray();
     string separator = "', '";
-    Console.Write("myArray = ['");
+    Console.Write("myArray = [");
+    Quote();
     Console.Write(string.Join(separator, strings));
-    Console.Write("']");
+    Quote();
+    Console.Write("]");
 
     Console.WriteLine("\nРезультат: ");    
     var result = myArray.Where(elem => elem.Length <= 3).ToArray();
-
-    void Quote()
-    {      
-      Console.Write("'");    
-    }
+    
 
     Console.Write("-> [");
     Quote();
@@ -46,6 +48,5 @@ class Program
     
   }
 
-  
 
 }
