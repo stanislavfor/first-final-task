@@ -1,7 +1,7 @@
 # Контрольная работа
 ### Итоговая контрольная работа по основному блоку
 
-## Задача алгоритмически не самая сложная, однако для полноценного выполнения проверочной работы необходимо:
+## Для полноценного выполнения проверочной работы необходимо:
 
 
 > Задача: Написать программу, которая из имеющегося массива строк формирует новый массив из строк, длина которых меньше, либо равна 3 символам. 
@@ -25,5 +25,5 @@
 
 ![Блок-схема](https://i.ibb.co/BzsDkT2/task-first.png "Алгоритм программы")
 
-[Ссылка](https://github.com/stanislavfor/first-final-task/blob/main/task/Program.cs) на решение задачи c кодом программы в файле Program.cs: 
+[Ссылка](https://github.com/stanislavfor/first-final-task/blob/main/task/Program.cs) на решение задачи c кодом в файле Program.cs: 
 <https://github.com/stanislavfor/first-final-task/blob/main/task/Program.cs>
