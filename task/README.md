@@ -17,4 +17,4 @@
 
 ## Решение
 
-#### Программная часть решения задачи с кодом на языке программирования C# находится в файле ``` [Program.cs](https://github.com/stanislavfor/first-final-task/blob/main/task/Program.cs) ```
+#### Программная часть решения задачи с кодом на языке программирования C# находится в файле [Program.cs](https://github.com/stanislavfor/first-final-task/blob/main/task/Program.cs/)
