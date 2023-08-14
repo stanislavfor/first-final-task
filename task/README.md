@@ -25,5 +25,5 @@
 
 ![Блок-схема](https://i.ibb.co/BzsDkT2/task-first.png "Алгоритм программы")
 
-[Ссылка](https://github.com/stanislavfor/first-final-task/tree/main/task) на решение задачи c кодом программы в файле Program.cs: 
-<https://github.com/stanislavfor/first-final-task/tree/main/task>
+[Ссылка](https://github.com/stanislavfor/first-final-task/blob/main/task/Program.cs) на решение задачи c кодом программы в файле Program.cs: 
+<https://github.com/stanislavfor/first-final-task/blob/main/task/Program.cs>
