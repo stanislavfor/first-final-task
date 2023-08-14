@@ -9,50 +9,51 @@ class Program
 
     Console.Write("Укажите длину одномерного массива (количество элементов): ");
     int eCount = Convert.ToInt32(Console.ReadLine());
+    string[] myArray = new string[eCount]; 
 
-    string[] myArray = new string[eCount];
-    
-    for (int i = 0; i < myArray.Length; i++)
+
+    void array(string[] myArray)
+    {
+      for (int i = 0; i < myArray.Length; i++)
     {
       Console.WriteLine($"Введите элемент массива {i+1} и нажмите Enter: ");
       string e = myArray[i];
       myArray[i] = Console.ReadLine()!;        
     }
+    }
 
     string separator = "', '";
-
     void Quote()
     {
       Console.Write("'");
     }
 
-    void stringArray(string[] strings)
+    void stringArray(string[] myArray)
     {
+      var strings = myArray.ToArray();
+      Console.WriteLine("Вывод массива: ");
+      Console.Write("myArray = [");
       Quote();
       Console.Write(string.Join(separator, strings));
       Quote();
       Console.Write("]");
     }
 
-    void printArray(string[] result)
+    void printArray(string[] myArray)
     {
+      var result = myArray.Where(elem => elem.Length <= 3).ToArray();
+      Console.WriteLine("\nРезультат: ");
+      Console.Write("-> [");
       Quote();
       Console.Write(string.Join(separator, result));
       Quote();
       Console.Write("]");
     }
 
-
-    Console.WriteLine("Вывод массива: ");
-    var strings = myArray.ToArray();    
-    Console.Write("myArray = [");
-    stringArray(strings);
-
-
-    Console.WriteLine("\nРезультат: ");    
-    var result = myArray.Where(elem => elem.Length <= 3).ToArray();    
-    Console.Write("-> [");
-    printArray(result);    
+    
+    array(myArray);
+    stringArray(myArray);     
+    printArray(myArray);    
 
     Console.WriteLine();
     Console.WriteLine();
