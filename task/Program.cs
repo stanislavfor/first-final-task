@@ -6,7 +6,7 @@ class Program
 {
   static void Main(string?[] args)
   {   
-    
+
     Console.Write("Укажите длину одномерного массива (количество элементов): ");
     int eCount = Convert.ToInt32(Console.ReadLine());
 
@@ -19,30 +19,41 @@ class Program
       myArray[i] = Console.ReadLine()!;        
     }
 
+    string separator = "', '";
+
     void Quote()
     {
       Console.Write("'");
     }
 
+    void stringArray(string[] strings)
+    {
+      Quote();
+      Console.Write(string.Join(separator, strings));
+      Quote();
+      Console.Write("]");
+    }
+
+    void printArray(string[] result)
+    {
+      Quote();
+      Console.Write(string.Join(separator, result));
+      Quote();
+      Console.Write("]");
+    }
+
+
     Console.WriteLine("Вывод массива: ");
-    var strings = myArray.ToArray();
-    string separator = "', '";
+    var strings = myArray.ToArray();    
     Console.Write("myArray = [");
-    Quote();
-    Console.Write(string.Join(separator, strings));
-    Quote();
-    Console.Write("]");
+    stringArray(strings);
+
 
     Console.WriteLine("\nРезультат: ");    
-    var result = myArray.Where(elem => elem.Length <= 3).ToArray();
-    
-
+    var result = myArray.Where(elem => elem.Length <= 3).ToArray();    
     Console.Write("-> [");
-    Quote();
-    Console.Write(string.Join(separator, result!));
-    Quote();
-    Console.Write("]");
-    
+    printArray(result);    
+
     Console.WriteLine();
     Console.WriteLine();
     
