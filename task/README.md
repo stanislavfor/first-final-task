@@ -23,4 +23,4 @@
 
 #### Блок-схема алгоритма
 
-![Блок-схема](https://i.ibb.co/BzsDkT2/task-first.png)
+![Блок-схема](https://i.ibb.co/BzsDkT2/task-first.png "Алгоритм программы")
