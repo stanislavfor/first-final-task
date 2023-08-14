@@ -1,0 +1,15 @@
+C:\Users\Stas\Desktop\first-final-task\task\bin\Debug\net7.0\task.exe
+C:\Users\Stas\Desktop\first-final-task\task\bin\Debug\net7.0\task.deps.json
+C:\Users\Stas\Desktop\first-final-task\task\bin\Debug\net7.0\task.runtimeconfig.json
+C:\Users\Stas\Desktop\first-final-task\task\bin\Debug\net7.0\task.dll
+C:\Users\Stas\Desktop\first-final-task\task\bin\Debug\net7.0\task.pdb
+C:\Users\Stas\Desktop\first-final-task\task\obj\Debug\net7.0\task.csproj.AssemblyReference.cache
+C:\Users\Stas\Desktop\first-final-task\task\obj\Debug\net7.0\task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stas\Desktop\first-final-task\task\obj\Debug\net7.0\task.AssemblyInfoInputs.cache
+C:\Users\Stas\Desktop\first-final-task\task\obj\Debug\net7.0\task.AssemblyInfo.cs
+C:\Users\Stas\Desktop\first-final-task\task\obj\Debug\net7.0\task.csproj.CoreCompileInputs.cache
+C:\Users\Stas\Desktop\first-final-task\task\obj\Debug\net7.0\task.dll
+C:\Users\Stas\Desktop\first-final-task\task\obj\Debug\net7.0\refint\task.dll
+C:\Users\Stas\Desktop\first-final-task\task\obj\Debug\net7.0\task.pdb
+C:\Users\Stas\Desktop\first-final-task\task\obj\Debug\net7.0\task.genruntimeconfig.cache
+C:\Users\Stas\Desktop\first-final-task\task\obj\Debug\net7.0\ref\task.dll
