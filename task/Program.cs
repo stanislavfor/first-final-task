@@ -48,7 +48,7 @@ class Program
       Quote();
       Console.Write(string.Join(separator, result!));
       Quote();
-      Console.Write("]");
+      Console.Write("]");      
     }
    
 
