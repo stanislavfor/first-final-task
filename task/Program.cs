@@ -25,8 +25,9 @@ class Program
     string separator = "', '";
     void Quote()
     {
-      Console.Write("'");
+      Console.Write("'");      
     }
+
 
     void stringArray(string[] myArray)
     {
@@ -43,14 +44,14 @@ class Program
     {
       var result = myArray.Where(elem => elem.Length <= 3).ToArray();
       Console.WriteLine("\nРезультат: ");
-      Console.Write("-> [");
+      Console.Write("-> [");      
       Quote();
-      Console.Write(string.Join(separator, result));
+      Console.Write(string.Join(separator, result!));
       Quote();
       Console.Write("]");
     }
+   
 
-    
     array(myArray);
     stringArray(myArray);     
     printArray(myArray);    

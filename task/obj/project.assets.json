@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stas\\Desktop\\first-final-task\\task\\task.csproj",
+      "projectUniqueName": "E:\\FOLDER_STUDY\\Geekbrains-courses\\first-final-task\\task\\task.csproj",
       "projectName": "task",
-      "projectPath": "C:\\Users\\Stas\\Desktop\\first-final-task\\task\\task.csproj",
+      "projectPath": "E:\\FOLDER_STUDY\\Geekbrains-courses\\first-final-task\\task\\task.csproj",
       "packagesPath": "C:\\Users\\Stas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stas\\Desktop\\first-final-task\\task\\obj\\",
+      "outputPath": "E:\\FOLDER_STUDY\\Geekbrains-courses\\first-final-task\\task\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Stas\\AppData\\Roaming\\NuGet\\NuGet.Config"
